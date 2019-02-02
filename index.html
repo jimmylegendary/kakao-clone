@@ -6,9 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Friends</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
+  <header class="top-header">
     <div class="header__top">
       <div class="header__column">
         <i class="fa fa-fighter-jet"></i>
@@ -40,19 +41,19 @@
       <i class="fa fa-search"></i>
       <input type="text" placeholder="Find friends, chats, Plus Friends">
     </div>
-    <section class="friendsd__section">
+    <section class="friends__section">
       <header class="friends__section-header">
         <h6 class="friends__section-title">My Profile</h6>
       </header>
       <div class="friends__section-rows">
         <div class="friends__section-row">
-          <a href="profile.html">
-            <img src="images/avatar.jpg" width=20 height=20 alt="">
-            <span class="friends__section-name">Jimmy</span>
-          </a>
+          <img src="images/avatar.jpg" alt="">
+            <a href="profile.html" class="friends__section-name">
+              Jimmy
+            </a>
         </div>
         <div class="friends__section-row">
-          <img src="images/avatar.jpg" width=20 height=20 alt="">
+          <img src="images/avatar.jpg" alt="">
           <span class="friends__section-name">Friends' Names Display</span>
         </div>
       </div>
@@ -62,9 +63,9 @@
         <h6 class="friends__section-title">Friends</h6>
       </header>
       <div class="friends__section-rows">
-        <div class="friends__section-row">
+        <div class="friends__section-row with-tagline">
           <div class="friends__section-column">
-            <img src="" alt="">
+            <img src="images/avatar.jpg" alt="">
             <span class="friends__section-name">Jimmy</span>
           </div>
           <span class="friends__section-tagline">
